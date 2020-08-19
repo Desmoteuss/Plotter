@@ -15,7 +15,7 @@ import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button } from "@material-ui/core";
 
-function Sidebar() {
+ const Sidebar=() => {
   return (
     <div className="sidebar">
       <TwitterIcon className="sidebar__twitterIcon" />
@@ -30,8 +30,8 @@ function Sidebar() {
       <SidebarOption Icon={MoreHorizIcon} text="More" />
 
       {/* Button -> Tweet */}
-      <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Tweet
+      <Button variant="outlined" className="sidebar__plott" fullWidth>
+        Send
       </Button>
     </div>
   );
