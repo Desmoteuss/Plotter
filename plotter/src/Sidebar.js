@@ -2,7 +2,7 @@
 import React from "react";
 import "./Sidebar.css";
 // import TwitterIcon from "@material-ui/icons/Twitter";
-import TwitterIcon from '@material-ui/icons/EmojiPeople';
+import PlotterIcon from '@material-ui/icons/EmojiPeople';
 
 import SidebarOption from "./SidebarOption";
 import HomeIcon from "@material-ui/icons/Home";
@@ -15,10 +15,10 @@ import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button } from "@material-ui/core";
 
- const Sidebar=() => {
+ const Sidebar= () => {
   return (
     <div className="sidebar">
-      <TwitterIcon className="sidebar__twitterIcon" />
+      <PlotterIcon className="sidebar__plotterIcon" />
 
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={SearchIcon} text="Explore" />

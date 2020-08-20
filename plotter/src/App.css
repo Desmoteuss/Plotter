@@ -3,3 +3,6 @@ body{
     --plotter-background: #006600;
 
 }
+.app {
+    display: flex;
+} 
