@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #ffffff;
+    --main-text-color: #000000;
+
+}
+
+.element-class{
+
+    background-color {
+        background-color: var (--main-bg-color);
+        color: var(--main-text-color);
+    }
+}
