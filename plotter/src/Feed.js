@@ -24,7 +24,7 @@ return (
 <div className="feed__header">
 
 
-<h2> Plotter</h2>
+<h2>Plotter</h2>
 </div>
 {/*{BoX}*/}
 <PlottBox/>
