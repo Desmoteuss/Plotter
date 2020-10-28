@@ -1,6 +1,6 @@
 .plottBox {
     padding-bottom: 10px;
-    border-bottom: 8px solid var(--plotter-background);
+    border-bottom: 2px solid var(--plotter-background);
     padding-right: 10px;
   }
   
