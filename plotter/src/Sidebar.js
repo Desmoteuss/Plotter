@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./Sidebar.css";
-// import TwitterIcon from "@material-ui/icons/Twitter";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import PlotterIcon from '@material-ui/icons/EmojiPeople';
 
 import SidebarOption from "./SidebarOption";
